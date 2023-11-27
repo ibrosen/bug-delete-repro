@@ -1,0 +1,20 @@
+{
+  "name": "privy-migrate",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "dependencies": {
+    "@privy-io/server-auth": "^1.5.3",
+    "viem": "^1.19.9"
+  }
+}
